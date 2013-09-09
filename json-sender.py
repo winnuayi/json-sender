@@ -48,6 +48,7 @@ data = {
     "contributor": "winnuayi"
 }
 
+print json.dumps(data)
 # send data
 r = requests.post(URL, data=json.dumps(data), headers=headers)
 
